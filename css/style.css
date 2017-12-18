@@ -1,0 +1,156 @@
+/*
+  Theme Name: Pseudopotentials Library
+  Author: Ashley Pressley
+  Description: Pseudopotentials Library Specific Styling
+  Version: 0.5.0
+  Updated: 2017/12/13
+  License: GNU General Public License v2 or later
+  Text Domain: pseudopotentialslibrary
+*/
+
+@font-face {
+	font-family: "Open Sans";
+	src: url('../fonts/OpenSans-Regular.ttf');
+	font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Periodic Table Styling */
+.element {
+	color: #ddd;
+}
+
+.element-block-1 {
+  width: 5.55%;
+  padding: 15px 0px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+}
+
+.active {
+	font-weight: bold;
+	color: #000;
+}
+
+.active:hover {
+  background-color: #555;
+  color: #fff;
+  border: 1px solid #00f;
+  cursor: pointer;
+}
+
+.element-block-3 {
+  width: 16.667%;
+}
+
+.element-block-10 {
+  width: 55.556%;
+}
+
+.element-block-16 {
+  width: 88.889%;
+}
+
+[class*='element-block-'] {
+  float: left;
+  display: block;
+  height: 100%;
+}
+
+.row {
+  clear: both;
+}
+
+/* Element colouring */
+.alkali-metal {
+  background-color: #ff6666;
+}
+
+.alkaline-earth-metal {
+  background-color: #ffdead;
+}
+
+.lanthanide {
+  background-color: #ffbfff;
+}
+
+.actinide {
+  background-color: #ff99cc;
+}
+
+.transition-metal {
+  background-color: #ffc0c0;
+}
+
+.post-transition-metal {
+  background-color: #ccc;
+}
+
+.metalloid {
+  background-color: #cccc99;
+}
+
+.polyatomic-nonmetal {
+  background-color: #a1ffc3;
+}
+
+.diatomic-nonmetal {
+  background-color: #e7ff8f;
+}
+
+.noble-gas {
+  background-color: #c0ffff;
+}
+
+.unknown {
+  background-color: #e8e8e8;
+}
+
+/*Recipe response*/
+#recipes {
+	height: auto;
+	clear: both;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding: 20px;
+  /*background-color: #eee;*/
+}
+
+.results {
+	display: inline-flex;
+}
+
+.element-info-container {
+	width: 40%;
+	margin: 10px 15px;
+	order: 1;
+}
+
+@media screen and (max-width:900px){
+	.recipe {
+		width: 85%;
+	}
+}
+
+.recipe {
+	background-color: #ddd;
+	padding: 3px 3px 15px 5px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+	order: 2;
+	width: 30%;
+}
+
+.results div:nth-child(3n) {
+	clear: left;
+}
