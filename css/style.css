@@ -2,8 +2,8 @@
   Theme Name: Pseudopotentials Library
   Author: Ashley Pressley
   Description: Pseudopotentials Library Specific Styling
-  Version: 0.5.0
-  Updated: 2017/12/13
+  Version: 0.6.0
+  Updated: 2017/12/19
   License: GNU General Public License v2 or later
   Text Domain: pseudopotentialslibrary
 */
@@ -17,11 +17,29 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+	background-color: #dce2e5;
 }
 
-.container {
-  width: 80%;
+/* Containers */
+#main {
   margin: 0 auto;
+	background-color: #fff;
+	padding-bottom: 15px;
+}
+
+#text-above {
+	clear: both;
+	margin: 20px 10px;
+}
+
+#text-middle {
+	clear: both;
+	margin: 20px 10px;
+}
+
+#text-below {
+	clear: both;
+	margin: 20px 10px;
 }
 
 /* Periodic Table Styling */
@@ -67,8 +85,27 @@ body {
   height: 100%;
 }
 
-.row {
+.element-row {
   clear: both;
+}
+
+/* Mobile View for Periodic Table */
+@media screen and (max-width:900px){
+	.element:not(.active),
+	.element-block-3,
+	.element-block-10,
+	.element-block-16,
+	.periodic-split {
+		display: none;
+	}
+
+	.active {
+		min-width: 55px;
+	}
+
+	.element-row {
+	  clear: none;
+	}
 }
 
 /* Element colouring */
@@ -117,40 +154,23 @@ body {
 }
 
 /*Recipe response*/
-#recipes {
+#results {
 	height: auto;
 	clear: both;
-	margin-top: 100px;
 	margin-bottom: 100px;
 	padding: 20px;
-  /*background-color: #eee;*/
-}
-
-.results {
-	display: inline-flex;
 }
 
 .element-info-container {
-	width: 40%;
-	margin: 10px 15px;
-	order: 1;
-}
-
-@media screen and (max-width:900px){
-	.recipe {
-		width: 85%;
-	}
+	float: left;
 }
 
 .recipe {
-	background-color: #ddd;
-	padding: 3px 3px 15px 5px;
-  box-sizing: border-box;
-  border: 1px solid #fff;
-	order: 2;
-	width: 30%;
-}
-
-.results div:nth-child(3n) {
-	clear: left;
+	background-color: rgba(122, 12, 41, .2);
+	padding: 15px;
+	box-sizing: border-box;
+	border: 1px solid #fff;
+	float: left;
+	border-radius: 6px;
+	min-height: 200px;
 }

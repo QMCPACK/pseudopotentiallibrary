@@ -11,26 +11,25 @@
 
 		<title>Pseudopotentials Library</title>
 
+		<link href="./css/bootstrap.min.css" rel="stylesheet">
 		<link href="./css/style.css" rel="stylesheet">
 		<link href="./images/fav.ico" rel="icon">
 	</head>
 
 	<body>
-		<h1>Pseudopotentials Library</h1>
-
 		<div id="main" class="container">
+			<h1>Pseudopotentials Library</h1>
 			<div id="text-above">
-				<!-- HTML/Text can go here to be shown above the periodic table -->
-
+				<?php include('includes/above.php'); ?>
 			</div>
 
 			<div id="periodic-table">
-				<div id="group-1" class="row">
+				<div id="group-1" class="element-row">
 					<div id="hydrogen" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('hydrogen')">H</div>
 					<div class="element-block-16">&nbsp;</div>
 					<div id="helium" class="element element-block-1 noble-gas" onclick="getRecipe('helium')">He</div>
 				</div>
-				<div id="group-2" class="row">
+				<div id="group-2" class="element-row">
 					<div id="lithium" class="element element-block-1 alkali-metal" onclick="getRecipe('lithium')">Li</div>
 					<div id="beryllium" class="element element-block-1 alkaline-earth-metal" onclick="getRecipe('beryllium')">Be</div>
 					<div class="element-block-10">&nbsp;</div>
@@ -41,7 +40,7 @@
 					<div id="flourine" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('flourine')">F</div>
 					<div id="neon" class="element element-block-1 noble-gas" onclick="getRecipe('neon')">Ne</div>
 				</div>
-				<div id="group-3" class="row">
+				<div id="group-3" class="element-row">
 					<div id="sodium" class="element element-block-1 alkali-metal" onclick="getRecipe('sodium')">Na</div>
 					<div id="magnesium" class="element element-block-1 alkaline-earth-metal" onclick="getRecipe('magnesium')">Mg</div>
 					<div class="element-block-10">&nbsp;</div>
@@ -52,7 +51,7 @@
 					<div id="chlorine" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('chlorine')">Cl</div>
 					<div id="argon" class="element element-block-1 noble-gas" onclick="getRecipe('argon')">Ar</div>
 				</div>
-				<div id="group-4" class="row">
+				<div id="group-4" class="element-row">
 					<div id="potassium" class="element element-block-1 alkali-metal" onclick="getRecipe('potassium')">K</div>
 					<div id="calcium" class="element element-block-1 alkaline-earth-metal" onclick="getRecipe('calcium')">Ca</div>
 					<div id="scandium" class="element element-block-1 transition-metal" onclick="getRecipe('scandium')">Sc</div>
@@ -72,7 +71,7 @@
 					<div id="bromine" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('bromine')">Br</div>
 					<div id="krypton" class="element element-block-1 noble-gas" onclick="getRecipe('krypton')">Kr</div>
 				</div>
-				<div id="group-5" class="row">
+				<div id="group-5" class="element-row">
 					<div id="rubidium" class="element element-block-1 alkali-metal" onclick="getRecipe('rubidium')">Rb</div>
 					<div id="strontium" class="element element-block-1 alkaline-earth-metal" onclick="getRecipe('strontium')">Sr</div>
 					<div id="yttrium" class="element element-block-1 transition-metal" onclick="getRecipe('yttrium')">Y</div>
@@ -92,7 +91,7 @@
 					<div id="iodine" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('iodine')">I</div>
 					<div id="xenon" class="element element-block-1 noble-gas" onclick="getRecipe('xenon')">Xe</div>
 				</div>
-				<div id="group-6" class="row">
+				<div id="group-6" class="element-row">
 					<div id="caesium" class="element element-block-1 alkali-metal" onclick="getRecipe('caesium')">Cs</div>
 					<div id="barium" class="element element-block-1 alkaline-earth-metal" onclick="getRecipe('barium')">Ba</div>
 					<div id="lanthanum" class="element element-block-1 lanthanide" onclick="getRecipe('lanthanum')">La</div>
@@ -112,7 +111,7 @@
 					<div id="astatine" class="element element-block-1 metalloid" onclick="getRecipe('astatine')">At</div>
 					<div id="radon" class="element element-block-1 noble-gas" onclick="getRecipe('radon')">Rn</div>
 				</div>
-				<div id="group-7" class="row">
+				<div id="group-7" class="element-row">
 					<div id="francium" class="element element-block-1 alkali-metal" onclick="getRecipe('francium')">Fr</div>
 					<div id="radium" class="element element-block-1 alkaline-earth-metal" onclick="getRecipe('radium')">Ra</div>
 					<div id="actinium" class="element element-block-1 actinide" onclick="getRecipe('actinium')">Ac</div>
@@ -132,8 +131,8 @@
 					<div id="tennessine" class="element element-block-1 unknown" onclick="getRecipe('tennessine')">Ts</div>
 					<div id="oganesson" class="element element-block-1 unknown" onclick="getRecipe('oganesson')">Og</div>
 				</div>
-				<p>&nbsp;</p>
-				<div id="group-8" class="row">
+				<p class="periodic-split">&nbsp;</p>
+				<div id="group-8" class="element-row">
 					<div class="element-block-3">&nbsp;</div>
 					<div id="cerium" class="element element-block-1 lanthanide" onclick="getRecipe('cerium')">Ce</div>
 					<div id="praseodymium" class="element element-block-1 lanthanide" onclick="getRecipe('praseodymium')">Pr</div>
@@ -150,7 +149,7 @@
 					<div id="ytterbium" class="element element-block-1 lanthanide" onclick="getRecipe('ytterbium')">Yb</div>
 					<div id="lutetuim" class="element element-block-1 lanthanide" onclick="getRecipe('lutetuim')">Lu</div>
 				</div>
-				<div id="group-9" class="row">
+				<div id="group-9" class="element-row">
 					<div class="element-block-3">&nbsp;</div>
 					<div id="thorium" class="element element-block-1 actinide" onclick="getRecipe('thorium')">Th</div>
 					<div id="protactinium" class="element element-block-1 actinide" onclick="getRecipe('protactinium')">Pa</div>
@@ -170,21 +169,20 @@
 			</div>
 
 			<div id="text-middle">
-				<!-- HTML/Text can go here to be shown below the periodic table but above recipes -->
-
+				<?php include('includes/middle.php'); ?>
 			</div>
 
-			<div id="recipes">
+			<div id="results">
 				<p>Click an element above to view available recipes.</p>
 			</div>
 
 			<div id="text-below">
-				<!-- HTML/Text can go here to be shown below the recipes -->
-
+				<?php include('includes/below.php'); ?>
 			</div>
 		</div>
 
 		<script src="./js/jquery.js" type="text/javascript"></script>
+		<script src="./js/bootstrap.min.js" type="text/javascript"></script>
 		<script src="./js/script.js" type="text/javascript"></script>
 	</body>
 

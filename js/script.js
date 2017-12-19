@@ -18,12 +18,12 @@ function getRecipe(element) {
   ajax(url)
     .then(function(result) {
       if (result === "") text += "No files found.";
-      else text += '<div class="results">' + result + "</div>";
+      else text += '<div class="recipe-container">' + result + "</div>";
     })
     .catch(function(e) {
       text += "<p>An error occured: " + e + "</p>";
     })
-    .then(function() { document.getElementById('recipes').innerHTML = text; });
+    .then(function() { document.getElementById('results').innerHTML = text; });
 }
 
 // This is the AJAX request to acquire the data from PHP
