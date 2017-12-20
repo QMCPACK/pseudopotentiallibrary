@@ -34,7 +34,7 @@
 					<div id="beryllium" class="element element-block-1 alkaline-earth-metal" onclick="getRecipe('beryllium')">Be</div>
 					<div class="element-block-10">&nbsp;</div>
 					<div id="boron" class="element element-block-1 metalloid" onclick="getRecipe('boron')">B</div>
-					<div id="carbon" class="element element-block-1 polyatomic-nonmetal" onclick="getRecipe('carbon')">C</div>
+					<div id="carbon" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('carbon')">C</div>
 					<div id="nitrogen" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('nitrogen')">N</div>
 					<div id="oxygen" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('oxygen')">O</div>
 					<div id="flourine" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('flourine')">F</div>
@@ -46,8 +46,8 @@
 					<div class="element-block-10">&nbsp;</div>
 					<div id="aluminium" class="element element-block-1 post-transition-metal" onclick="getRecipe('aluminium')">Al</div>
 					<div id="silicon" class="element element-block-1 metalloid" onclick="getRecipe('silicon')">Si</div>
-					<div id="phosporus" class="element element-block-1 polyatomic-nonmetal" onclick="getRecipe('phosporus')">P</div>
-					<div id="sulfur" class="element element-block-1 polyatomic-nonmetal" onclick="getRecipe('sulfur')">S</div>
+					<div id="phosporus" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('phosporus')">P</div>
+					<div id="sulfur" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('sulfur')">S</div>
 					<div id="chlorine" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('chlorine')">Cl</div>
 					<div id="argon" class="element element-block-1 noble-gas" onclick="getRecipe('argon')">Ar</div>
 				</div>
@@ -63,11 +63,11 @@
 					<div id="cobolt" class="element element-block-1 transition-metal" onclick="getRecipe('cobolt')">Co</div>
 					<div id="nickel" class="element element-block-1 transition-metal" onclick="getRecipe('nickel')">Ni</div>
 					<div id="copper" class="element element-block-1 transition-metal" onclick="getRecipe('copper')">Cu</div>
-					<div id="zinc" class="element element-block-1 post-transition-metal" onclick="getRecipe('zinc')">Zn</div>
+					<div id="zinc" class="element element-block-1 transition-metal" onclick="getRecipe('zinc')">Zn</div>
 					<div id="gallium" class="element element-block-1 post-transition-metal" onclick="getRecipe('gallium')">Ga</div>
 					<div id="germanium" class="element element-block-1 metalloid" onclick="getRecipe('germanium')">Ge</div>
 					<div id="arsenic" class="element element-block-1 metalloid" onclick="getRecipe('arsenic')">As</div>
-					<div id="selenium" class="element element-block-1 polyatomic-nonmetal" onclick="getRecipe('selenium')">Se</div>
+					<div id="selenium" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('selenium')">Se</div>
 					<div id="bromine" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('bromine')">Br</div>
 					<div id="krypton" class="element element-block-1 noble-gas" onclick="getRecipe('krypton')">Kr</div>
 				</div>
@@ -83,7 +83,7 @@
 					<div id="rhodium" class="element element-block-1 transition-metal" onclick="getRecipe('rhodium')">Rh</div>
 					<div id="palladium" class="element element-block-1 transition-metal" onclick="getRecipe('palladium')">Pd</div>
 					<div id="silver" class="element element-block-1 transition-metal" onclick="getRecipe('silver')">Ag</div>
-					<div id="cadmium" class="element element-block-1 post-transition-metal" onclick="getRecipe('cadmium')">Cd</div>
+					<div id="cadmium" class="element element-block-1 transition-metal" onclick="getRecipe('cadmium')">Cd</div>
 					<div id="indium" class="element element-block-1 post-transition-metal" onclick="getRecipe('indium')">In</div>
 					<div id="tin" class="element element-block-1 post-transition-metal" onclick="getRecipe('tin')">Sn</div>
 					<div id="antimony" class="element element-block-1 metalloid" onclick="getRecipe('antimony')">Sb</div>
@@ -103,7 +103,7 @@
 					<div id="iridium" class="element element-block-1 transition-metal" onclick="getRecipe('iridium')">Ir</div>
 					<div id="platinum" class="element element-block-1 transition-metal" onclick="getRecipe('platinum')">Pt</div>
 					<div id="gold" class="element element-block-1 transition-metal" onclick="getRecipe('gold')">Au</div>
-					<div id="mercury" class="element element-block-1 post-transition-metal" onclick="getRecipe('mercury')">Hg</div>
+					<div id="mercury" class="element element-block-1 transition-metal" onclick="getRecipe('mercury')">Hg</div>
 					<div id="thallium" class="element element-block-1 post-transition-metal" onclick="getRecipe('thallium')">Tl</div>
 					<div id="lead" class="element element-block-1 post-transition-metal" onclick="getRecipe('lead')">Pb</div>
 					<div id="bismuth" class="element element-block-1 post-transition-metal" onclick="getRecipe('bismuth')">Bi</div>
@@ -123,9 +123,9 @@
 					<div id="meitnerium" class="element element-block-1 unknown" onclick="getRecipe('meitnerium')">Mt</div>
 					<div id="darmstadtium" class="element element-block-1 unknown" onclick="getRecipe('darmstadtium')">Ds</div>
 					<div id="roentgenium" class="element element-block-1 unknown" onclick="getRecipe('roentgenium')">Rg</div>
-					<div id="copernicium" class="element element-block-1 post-transition-metal" onclick="getRecipe('copernicium')">Cn</div>
+					<div id="copernicium" class="element element-block-1 transition-metal" onclick="getRecipe('copernicium')">Cn</div>
 					<div id="nihonium" class="element element-block-1 unknown" onclick="getRecipe('nihonium')">Nh</div>
-					<div id="flerovium" class="element element-block-1 unknown" onclick="getRecipe('flerovium')">Fl</div>
+					<div id="flerovium" class="element element-block-1 post-transition-metal" onclick="getRecipe('flerovium')">Fl</div>
 					<div id="moscovium" class="element element-block-1 unknown" onclick="getRecipe('moscovium')">Mc</div>
 					<div id="livermorium" class="element element-block-1 unknown" onclick="getRecipe('livermorium')">Lv</div>
 					<div id="tennessine" class="element element-block-1 unknown" onclick="getRecipe('tennessine')">Ts</div>
