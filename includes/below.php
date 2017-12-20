@@ -1,1 +1,1 @@
-<!-- HTML/Text can go here to be shown below the recipes -->
+<!-- Markdown/HTML/Text can go here to be shown below the recipes -->

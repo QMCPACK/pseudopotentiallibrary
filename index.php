@@ -14,13 +14,18 @@
 		<link href="./css/bootstrap.min.css" rel="stylesheet">
 		<link href="./css/style.css" rel="stylesheet">
 		<link href="./images/fav.ico" rel="icon">
+
+		<?php require_once 'Parsedown.php'; ?>
 	</head>
 
 	<body>
 		<div id="main" class="container">
 			<h1>Pseudopotentials Library</h1>
 			<div id="text-above">
-				<?php include('includes/above.php'); ?>
+				<?php
+					$ParsedownAbove = new Parsedown();
+					echo $ParsedownAbove->text(file_get_contents('includes/above.php'));
+				?>
 			</div>
 
 			<div id="periodic-table">
@@ -169,7 +174,10 @@
 			</div>
 
 			<div id="text-middle">
-				<?php include('includes/middle.php'); ?>
+				<?php
+					$ParsedownMiddle = new Parsedown();
+					echo $ParsedownMiddle->text(file_get_contents('includes/middle.php'));
+				?>
 			</div>
 
 			<div id="results">
@@ -177,7 +185,10 @@
 			</div>
 
 			<div id="text-below">
-				<?php include('includes/below.php'); ?>
+				<?php
+					$ParsedownBelow = new Parsedown();
+					echo $ParsedownBelow->text(file_get_contents('includes/below.php'));
+				?>
 			</div>
 		</div>
 
