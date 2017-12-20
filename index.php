@@ -195,6 +195,15 @@
 		<script src="./js/jquery.js" type="text/javascript"></script>
 		<script src="./js/bootstrap.min.js" type="text/javascript"></script>
 		<script src="./js/script.js" type="text/javascript"></script>
+
+		<!-- Site Improve Capture -->
+		<script>
+			(function() {
+		    var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+		    sz.src = '//siteimproveanalytics.com/js/siteanalyze_6024880.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+			})();
+		</script>
 	</body>
 
 </html>
