@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<meta name="description" content="Pseudopotentials Library">
+		<meta name="description" content="Pseudopotential Library">
 		<meta name="keywords" content="HTML,CSS,JavaScript">
 		<meta name="author" content="Ashley Pressley">
 
@@ -20,7 +20,7 @@
 
 	<body>
 		<div id="main" class="container">
-			<h1>Pseudopotentials Library</h1>
+			<h1>Pseudopotential Library</h1>
 			<div id="text-above">
 				<?php
 					$ParsedownAbove = new Parsedown();
