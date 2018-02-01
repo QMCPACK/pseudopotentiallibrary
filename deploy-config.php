@@ -52,7 +52,7 @@ define('TARGET_DIR', '/var/www/html/');
  *
  * @var boolean
  */
-define('DELETE_FILES', false);
+define('DELETE_FILES', true);
 /**
  * The directories and files that are to be excluded when updating the code.
  * Normally, these are the directories containing files that are not part of
