@@ -1,4 +1,5 @@
 <?php
+  require_once 'Parsedown.php';
   $element = "";
   $recipes = "";
   if (!empty($_GET['element'])) {
@@ -31,8 +32,9 @@
               if ($recipe->isFile()) {
                 // author.txt is the contributor information for the recipe
                 if ($recipe->getFilename() == "author.txt") {
-                  $authorInfo = file_get_contents('./recipes/' . $eleFolder->getFilename() . '/' . $recipeFolder->getFilename() . "/author.txt");
-                  $recipes .= '<p class="author-info-container">' . $authorInfo . "</p>";
+                  $ParsedownAuthor = new Parsedown();
+                  // $authorInfo = file_get_contents('./recipes/' . $eleFolder->getFilename() . '/' . $recipeFolder->getFilename() . "/author.txt");
+                  $recipes .= '<p class="author-info-container">' . $ParsedownAuthor->text(file_get_contents('./recipes/' . $eleFolder->getFilename() . '/' . $recipeFolder->getFilename() . "/author.txt")) . "</p>";
                 }
                 // Create a link to each file in the group, except author.txt
                 else $recipes .= '<a href="recipes/' . $eleFolder->getFilename() . '/' . $recipeFolder->getFilename() . '/' . $recipe->getFilename() . '">' . $recipe->getFilename() . "</a><br />";
