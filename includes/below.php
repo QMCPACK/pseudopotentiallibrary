@@ -1,4 +1,8 @@
 <!-- Markdown/HTML/Text can go here to be shown below the recipes -->
+## Available ECPs and pseudopotentials
+
+* ccECPs from Chandler Bennett et al. [Journal of Chemical Physics 147, 224106 (2017)](https://doi.org/10.1063/1.4995643)
+
 ## Help and feedback
 
 Create an issue on the [GitHub site](https://github.com/QMCPACK/pseudopotentiallibrary/issues) or contact the developers of the potential you are interested in.
@@ -9,4 +13,4 @@ Thanks for contributing! Please create a pull request on the [GitHub site](https
 
 ## News and Major Updates
 
-* 2017-02-20 Initial public version with ccECPs only.
+* 2017-02-20 Initial public version with ccECPs.
