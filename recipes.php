@@ -25,7 +25,7 @@
           if ($recipeFolder->isDir()) {
             // We want all of the recipe files to be grouped together
             $recipes .= '<div class="recipe col-md-3">';
-            $recipes .= '<h4>' . $recipeFolder->getFilename() . '</h4>';
+            $recipes .= '<h4 class="recipe-title">' . $recipeFolder->getFilename() . '</h4>';
             foreach (new DirectoryIterator('./recipes/' . $eleFolder->getFilename() . '/' . $recipeFolder->getFilename()) as $recipe) {
               if ($recipe->isDot()) continue;
 
@@ -34,7 +34,7 @@
                 if ($recipe->getFilename() == "author.txt") {
                   $ParsedownAuthor = new Parsedown();
                   // $authorInfo = file_get_contents('./recipes/' . $eleFolder->getFilename() . '/' . $recipeFolder->getFilename() . "/author.txt");
-                  $recipes .= '<p class="author-info-container">' . $ParsedownAuthor->text(file_get_contents('./recipes/' . $eleFolder->getFilename() . '/' . $recipeFolder->getFilename() . "/author.txt")) . "</p>";
+                  $recipes .= '<span class="author-info-container">' . $ParsedownAuthor->text(file_get_contents('./recipes/' . $eleFolder->getFilename() . '/' . $recipeFolder->getFilename() . "/author.txt")) . "</span>";
                 }
                 // Create a link to each file in the group, except author.txt
                 else $recipes .= '<a href="recipes/' . $eleFolder->getFilename() . '/' . $recipeFolder->getFilename() . '/' . $recipe->getFilename() . '">' . $recipe->getFilename() . "</a><br />";

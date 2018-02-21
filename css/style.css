@@ -2,8 +2,8 @@
   Theme Name: Pseudopotentials Library
   Author: Ashley Pressley
   Description: Pseudopotentials Library Specific Styling
-  Version: 0.6.0
-  Updated: 2017/12/19
+  Version: 1.0.1
+  Updated: 2018/02/21
   License: GNU General Public License v2 or later
   Text Domain: pseudopotentialslibrary
 */
@@ -20,7 +20,7 @@ body {
 	background-color: #dce2e5;
 }
 
-/* Containers */
+/** Main Containers **/
 #main {
   margin: 0 auto;
 	background-color: #fff;
@@ -42,7 +42,7 @@ body {
 	margin: 20px 10px;
 }
 
-/* Periodic Table Styling */
+/** Periodic Table Styling **/
 .element {
 	color: #ddd;
 }
@@ -89,7 +89,7 @@ body {
   clear: both;
 }
 
-/* Mobile View for Periodic Table */
+/** Mobile View for Periodic Table **/
 @media screen and (max-width:900px){
 	.element:not(.active),
 	.element-block-3,
@@ -108,7 +108,7 @@ body {
 	}
 }
 
-/* Element colouring */
+/** Element colouring **/
 .alkali-metal {
   background-color: #ff6666;
 }
@@ -153,12 +153,21 @@ body {
   background-color: #e8e8e8;
 }
 
-/*Recipe response*/
+/** Recipe response **/
 #results {
 	height: auto;
 	clear: both;
 	margin-bottom: 100px;
 	padding: 20px;
+}
+
+/* To ensure the title appears first */
+.recipe-title {
+	order: -2;
+}
+/* To ensure the author appears second */
+.author-info-container {
+	order: -1;
 }
 
 .element-info-container {
@@ -173,4 +182,6 @@ body {
 	float: left;
 	border-radius: 6px;
 	min-height: 200px;
+	display: flex;
+	flex-direction: column;
 }
