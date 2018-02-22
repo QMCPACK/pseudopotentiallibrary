@@ -13,4 +13,5 @@ Thanks for contributing! Please create a pull request on the [GitHub site](https
 
 ## News and Major Updates
 
+* 2017-02-22 Add RRKJ and TM potentials for 3d elements.
 * 2017-02-20 Initial public version with ccECPs.
