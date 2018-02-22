@@ -1,7 +1,8 @@
 <!-- Markdown/HTML/Text can go here to be shown below the recipes -->
 ## Available ECPs and pseudopotentials
 
-* ccECPs from Chandler Bennett et al. [Journal of Chemical Physics 147, 224106 (2017)](https://doi.org/10.1063/1.4995643)
+* ccECPs from "A new generation of effective core potentials for correlated calculations", M. Chandler Bennett, Cody A. Melton, Abdulgani Annaberdiyev, Guangming Wang, Luke Shulenburger, and Lubos Mitas. [Journal of Chemical Physics 147, 224106 (2017)](https://doi.org/10.1063/1.4995643)
+* RRKJ and TM based potentials from "Pseudopotentials for quantum Monte Carlo studies of transition metal oxides", J. T. Krogel, Juan A. Santana, and Fernando A. Reboredo. [Physical Review B 93 075143 (2016)](https://doi.org/10.1103/PhysRevB.93.075143)
 
 ## Help and feedback
 
@@ -13,4 +14,5 @@ Thanks for contributing! Please create a pull request on the [GitHub site](https
 
 ## News and Major Updates
 
-* 2017-02-20 Initial public version with ccECPs.
+* 2017-02-22 Added RRKJ and TM potentials for 3d elements from Krogel et al.									   
+* 2017-02-20 Initial public version with ccECPs from Chandler Bennett et al.
