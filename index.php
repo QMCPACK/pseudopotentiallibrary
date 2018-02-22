@@ -65,7 +65,7 @@
 					<div id="chromium" class="element element-block-1 transition-metal" onclick="getRecipe('chromium')">Cr</div>
 					<div id="manganese" class="element element-block-1 transition-metal" onclick="getRecipe('manganese')">Mn</div>
 					<div id="iron" class="element element-block-1 transition-metal" onclick="getRecipe('iron')">Fe</div>
-					<div id="cobolt" class="element element-block-1 transition-metal" onclick="getRecipe('cobolt')">Co</div>
+					<div id="cobalt" class="element element-block-1 transition-metal" onclick="getRecipe('cobalt')">Co</div>
 					<div id="nickel" class="element element-block-1 transition-metal" onclick="getRecipe('nickel')">Ni</div>
 					<div id="copper" class="element element-block-1 transition-metal" onclick="getRecipe('copper')">Cu</div>
 					<div id="zinc" class="element element-block-1 transition-metal" onclick="getRecipe('zinc')">Zn</div>
