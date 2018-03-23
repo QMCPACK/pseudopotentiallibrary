@@ -17,7 +17,7 @@ Thanks for contributing! Please create a pull request on the [GitHub site](https
 * 2018-04 Add newly developed 2nd and 3rd row ccECPs.
 * 2018-04 Add Trail-Needs 2017 potentials.
 * Standardize naming of basis sets for different codes.
-* Convert or create new formats where missing, e.g. UGAMESS, Molpro, or UPF format with projectors for Quantum Espresso.
+* Convert or create new formats where missing, e.g. GAMESS, Molpro, or UPF format with projectors for Quantum Espresso.
 
 ## News and Major Updates
 
