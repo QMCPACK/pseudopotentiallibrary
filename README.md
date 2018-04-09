@@ -1,26 +1,26 @@
 ## Welcome to Pseudopotentials Library
 
-This is the guide for managing this website and its components. Please refrain from editing any files outside of the **includes** and **recipes** folders.
+This is the guide for managing this website and its components, and was last updated on April 9th, 2018. Please refrain from editing any files outside of the **includes** and **recipes** folders.
 
 
 ### Managing Recipe Content
 Inside the **recipes** folder is a very particular structure pattern. This structure is key to having data appear properly on the website.
 
-To create a new active element on the periodic table, add a new folder to the root **recipes** folder with the standard name of the element. Ex: **recipes/Nitrogen**
+To create a new active element on the periodic table, add a new folder to the root **recipes** folder with the standard atomic symbol of the element. Ex: **recipes/N**
 
-To include information about the element, in the root folder of the element, include a text file. The name of this file is irrelevant. Ex: **recipes/Nitrogen/info.txt**
+To include information about the element, in the root folder of the element, include a text file. The name of this file is irrelevant. Ex: **recipes/N/info.txt**
 
 To include recipes for the element, create a new folder in the root folder of the element, titled the display name of the recipe. Include all relevant recipe files in the root folder of the recipe, to have them displayed as a group on the web page. To include a contributor name for the recipe, include a file named **author.txt**, this name is specific and important.
 
-	recipes/Nitrogen/FirstRecipe/
-	recipes/Nitrogen/FirstRecipe/author.txt
-	recipes/Nitrogen/FirstRecipe/firstFile.txt
-	recipes/Nitrogen/FirstRecipe/supportingFile.txt
+	recipes/N/FirstRecipe/
+	recipes/N/FirstRecipe/author.txt
+	recipes/N/FirstRecipe/firstFile.txt
+	recipes/N/FirstRecipe/supportingFile.txt
 
 The folder structure will resemble the diagram below:
 
 	recipes/
-	├── Argon/
+	├── Ar/
 	│   ├── the main recipe/
 	│   │   ├── author.txt
 	│   │   └── main recipe file.txt
@@ -33,7 +33,7 @@ The folder structure will resemble the diagram below:
 	│       ├── main recipe file.txt
 	│       ├── supporting recipe1.txt
 	│       └── supporting recipe file.txt
-	├── Carbon/
+	├── C/
 	│   ├── info.txt
 	│   ├── recipe 1/
 	│   │   ├── author.txt
@@ -43,7 +43,7 @@ The folder structure will resemble the diagram below:
 	│       ├── supporting recipe1.txt
 	│       ├── supporting recipe2.txt
 	│       └── supporting recipe3.txt
-	└── Nitrogen/
+	└── N/
 	    ├── info.txt
 	    └── recipe/
 	        ├── author.txt
