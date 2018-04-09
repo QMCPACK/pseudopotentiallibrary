@@ -9,7 +9,7 @@
 		<meta name="keywords" content="HTML,CSS,JavaScript">
 		<meta name="author" content="Ashley Pressley">
 
-		<title>Pseudopotentials Library</title>
+		<title>Pseudopotential Library</title>
 
 		<link href="./css/bootstrap.min.css" rel="stylesheet">
 		<link href="./css/style.css" rel="stylesheet">

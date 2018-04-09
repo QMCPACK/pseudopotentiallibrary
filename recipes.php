@@ -1,7 +1,7 @@
 <?php
   require_once 'Parsedown.php';
   $element = "";
-  $recipes = "";
+  $recipes = ""; 
   $eleInfo = "";
   if (!empty($_GET['element'])) {
     $element = $_GET['element'];
