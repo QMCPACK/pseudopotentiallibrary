@@ -3,8 +3,8 @@
 
 * ccECPs from Chandler Bennett et al. [Journal of Chemical Physics 147, 224106 (2017)](https://doi.org/10.1063/1.4995643)
 * eCEPPs from Trail and Needs [Journal of Chemical Physics 146, 204107 (2017)](https://doi.org/10.1063/1.4984046)
-* CEPPs from Trail and Needs [Journal of Chemical Physics 142, 064110 (2015)](https://doi.org/10.1063/1.4907589)
 * RRKJ and TM based potentials from Krogel et al. [Physical Review B 93, 075143 (2016)](https://doi.org/10.1103/PhysRevB.93.075143)
+* CEPPs from Trail and Needs [Journal of Chemical Physics 142, 064110 (2015)](https://doi.org/10.1063/1.4907589)
 
 ## Help and feedback
 
