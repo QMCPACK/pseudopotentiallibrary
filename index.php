@@ -49,9 +49,9 @@
 					<div id="sodium" class="element element-block-1 alkali-metal" onclick="getRecipe('sodium')">Na</div>
 					<div id="magnesium" class="element element-block-1 alkaline-earth-metal" onclick="getRecipe('magnesium')">Mg</div>
 					<div class="element-block-10">&nbsp;</div>
-					<div id="aluminium" class="element element-block-1 post-transition-metal" onclick="getRecipe('aluminium')">Al</div>
+					<div id="aluminum" class="element element-block-1 post-transition-metal" onclick="getRecipe('aluminum')">Al</div>
 					<div id="silicon" class="element element-block-1 metalloid" onclick="getRecipe('silicon')">Si</div>
-					<div id="phosporus" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('phosporus')">P</div>
+					<div id="phosphorus" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('phosphorus')">P</div>
 					<div id="sulfur" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('sulfur')">S</div>
 					<div id="chlorine" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('chlorine')">Cl</div>
 					<div id="argon" class="element element-block-1 noble-gas" onclick="getRecipe('argon')">Ar</div>

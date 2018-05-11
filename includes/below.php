@@ -1,6 +1,7 @@
 <!-- Markdown/HTML/Text can go here to be shown below the recipes -->
 ## Available ECPs and pseudopotentials
 
+* ccECPs from Chandler Bennett et al. [arXiv:1805.00607 (2018)](https://arxiv.org/abs/1805.00607)
 * ccECPs from Chandler Bennett et al. [Journal of Chemical Physics 147, 224106 (2017)](https://doi.org/10.1063/1.4995643)
 * eCEPPs from Trail and Needs [Journal of Chemical Physics 146, 204107 (2017)](https://doi.org/10.1063/1.4984046)
 * RRKJ and TM based potentials from Krogel et al. [Physical Review B 93, 075143 (2016)](https://doi.org/10.1103/PhysRevB.93.075143)
