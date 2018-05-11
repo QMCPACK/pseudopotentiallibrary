@@ -42,7 +42,7 @@
 					<div id="carbon" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('carbon')">C</div>
 					<div id="nitrogen" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('nitrogen')">N</div>
 					<div id="oxygen" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('oxygen')">O</div>
-					<div id="flourine" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('flourine')">F</div>
+					<div id="fluorine" class="element element-block-1 diatomic-nonmetal" onclick="getRecipe('fluorine')">F</div>
 					<div id="neon" class="element element-block-1 noble-gas" onclick="getRecipe('neon')">Ne</div>
 				</div>
 				<div id="group-3" class="element-row">
