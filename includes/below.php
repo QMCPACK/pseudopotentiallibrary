@@ -18,11 +18,12 @@ Thanks for contributing! Please create a pull request on the [GitHub site](https
 
 ## Roadmap
 
-* 2018-04 Add newly developed 2nd and 3rd row ccECPs.
-* Standardize naming of basis sets for different codes.
-* Standardize available formats. Convert or create new formats where missing, e.g. GAMESS, Molpro, or UPF format with projectors for Quantum Espresso.
+* 2018-07 Standardize naming of basis sets for different codes.
+* 2018-08 Standardize available formats. Convert or create new formats where missing, e.g. GAMESS, Molpro, or UPF format with projectors for Quantum Espresso.
 
 ## News and Major Updates
+
+* 2018-05-21 Added ccECPs for 2nd and 3rd row from Abdulgani Annaberdiyev (2018) and Chandler Bennett (2018)
 * 2018-04-12 Added Trail-Needs CEPP (2015) and eCEPP (2017) potentials, basis sets, and orbitals.
 * 2018-02-22 Add RRKJ and TM potentials for 3d elements.
 * 2018-02-20 Initial public version with ccECPs.
