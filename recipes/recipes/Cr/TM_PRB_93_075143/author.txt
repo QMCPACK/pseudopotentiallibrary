@@ -1,0 +1,1 @@
+Troullier-Martins potential from J. T. Krogel et al. [Physical Review B 93 075143 (2016)](https://doi.org/10.1103/PhysRevB.93.075143)
