@@ -1,1 +1,0 @@
-ccECP from Chandler Bennett et al. [arXiv:1805.00607 (2018)](https://arxiv.org/abs/1805.00607)
