@@ -18,8 +18,7 @@ Thanks for contributing! Please create a pull request on the [GitHub site](https
 
 ## Roadmap
 
-* 2018-07 Standardize naming of basis sets for different codes.
-* 2018-08 Standardize available formats. Convert or create new formats where missing, e.g. GAMESS, Molpro, or UPF format with projectors for Quantum Espresso.
+* 2018-12 Standardize available formats. Convert or create new formats where missing, e.g. GAMESS, Molpro, or UPF format with projectors for Quantum Espresso.
 
 ## News and Major Updates
 
