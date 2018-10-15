@@ -22,7 +22,8 @@ Thanks for contributing! Please create a pull request on the [GitHub site](https
 
 ## News and Major Updates
 
-* 2018-05-21 Added ccECPs for 2nd and 3rd row from Abdulgani Annaberdiyev (2018) and Chandler Bennett (2018)
+* 2018-10-15 Update 2nd row He-core ccECPs to be consistent with JCP (2018) potentials. 
+* 2018-05-21 Added ccECPs for 2nd and 3rd row from Abdulgani Annaberdiyev (2018) and Chandler Bennett (2018).
 * 2018-04-12 Added Trail-Needs CEPP (2015) and eCEPP (2017) potentials, basis sets, and orbitals.
 * 2018-02-22 Add RRKJ and TM potentials for 3d elements.
 * 2018-02-20 Initial public version with ccECPs.

@@ -1,1 +1,1 @@
-ccECP from Chandler Bennett et al. [arXiv:1805.00607 (2018)](https://arxiv.org/abs/1805.00607)
+ccECP from Chandler Bennett et al. [Journal of Chemical Physics 149, 104108 (2018)](https://doi.org/10.1063/1.5038135)
