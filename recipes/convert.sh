@@ -15,11 +15,11 @@ do
 	for k in "${basis[@]}"
 	do
 		echo ${k}
-		molpro2gamess.py ${i}.cc-pCV${k}.molpro > ${i}.cc-pCV${k}.gamess
-		molpro2gamess.py ${i}.aug-cc-pCV${k}.molpro > ${i}.aug-cc-pCV${k}.gamess
-
-		molpro2nwchem.py ${i}.cc-pCV${k}.molpro > ${i}.cc-pCV${k}.nwchem
-		molpro2nwchem.py ${i}.aug-cc-pCV${k}.molpro > ${i}.aug-cc-pCV${k}.nwchem
+		#molpro2gamess.py ${i}.cc-pCV${k}.molpro > ${i}.cc-pCV${k}.gamess
+		#molpro2gamess.py ${i}.aug-cc-pCV${k}.molpro > ${i}.aug-cc-pCV${k}.gamess
+		#molpro2nwchem.py ${i}.cc-pCV${k}.molpro > ${i}.cc-pCV${k}.nwchem
+		#molpro2nwchem.py ${i}.aug-cc-pCV${k}.molpro > ${i}.aug-cc-pCV${k}.nwchem
+		rm *6Z*
 	done
 	cd ../../
 done
