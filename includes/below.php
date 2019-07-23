@@ -1,7 +1,7 @@
 <!-- Markdown/HTML/Text can go here to be shown below the recipes -->
 ## Available ECPs and pseudopotentials
 
-* ccECPs from Guangming Wang et al.
+* ccECPs from Guangming Wang et al. [arXiv:1907.08658 (2019)](https://arxiv.org/abs/1907.08658)
 * ccECPs from Abdulgani Annaberdiyev et al. [Journal of Chemical Physics 149, 134108 (2018)](https://doi.org/10.1063/1.5040472) 
 * ccECPs from Chandler Bennett et al. [Journal of Chemical Physics 149, 104108 (2018)](https://doi.org/10.1063/1.5038135) 
 * ccECPs from Chandler Bennett et al. [Journal of Chemical Physics 147, 224106 (2017)](https://doi.org/10.1063/1.4995643)
