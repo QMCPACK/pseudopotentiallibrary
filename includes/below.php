@@ -20,7 +20,7 @@ Thanks for contributing! Please create a pull request on the [GitHub site](https
 ## Roadmap
 
 * Now that H-Kr are complete, additional elements will be added based on requests. Create an issue if you need an element.
-* As implementation of spin-orbit are made in many-body codes such as QMCPACK, appropriate formats will be determined and new potentials incorporating spin-orbit will be added.
+* As implementations of spin-orbit are made in many-body codes such as QMCPACK, appropriate formats will be determined and new potentials incorporating spin-orbit will be added.
 
 ## News and Major Updates
 
