@@ -19,7 +19,8 @@ Thanks for contributing! Please create a pull request on the [GitHub site](https
 
 ## Roadmap
 
-* 2018-12 Standardize available formats. Convert or create new formats where missing, e.g. GAMESS, Molpro, or UPF format with projectors for Quantum Espresso.
+* Now that H-Kr are complete, additional elements will be added based on requests. Create an issue if you need an element.
+* As implementation of spin-orbit are made in many-body codes such as QMCPACK, appropriate formats will be determined and new potentials incorporating spin-orbit will be added.
 
 ## News and Major Updates
 
