@@ -4,15 +4,15 @@
 #    Opium Parameter File                                  #
 ############################################################
 #-----------------------------------------------------------
-#Command line   : /home/camelto2/Codes/opium-modified/opium Ti Ti.log ae ps nl tc2 ke upf qmcpack rpt 
+#Command line   : /home/8gb/Codes/src/opium-modified/opium ti ti.log ae ps nl tc2 ke upf qmcpack rpt 
  
 #Opium version  : 4.1 
-#Compile Host   : tarvalon 
-#Compile OS     : Linux 4.15.0-47-generic x86_64 
-#Compile Date   : Thu May  9 12:26:14 EDT 2019 
+#Compile Host   : oahu 
+#Compile OS     : Linux 4.15.0-52-generic x86_64 
+#Compile Date   : Tue Jul  2 12:10:03 EDT 2019 
 #-----------------------------------------------------------
-#Execution Host : tarvalon 
-#Execution Date : Fri May 17 14:33:30 2019
+#Execution Host : oahu 
+#Execution Date : Thu Aug  6 15:36:24 2020
  
 #-----------------------------------------------------------
 ############################################################
@@ -29,7 +29,7 @@ Ti
 410   0.00  -
 
 [Pseudo]
-5 1.520 1.602 1.335  1.520 602
+5 -1 -1 -1 -1 -1
 g
 
 [Gaussinfo]
