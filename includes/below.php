@@ -1,6 +1,7 @@
 <!-- Markdown/HTML/Text can go here to be shown below the recipes -->
 ## Available ECPs and pseudopotentials
 
+* ccECPs from Guangming Wang et al. [Journal of Chemical Physics 151, 144110 (2019)](https://doi.org/10.1063/1.5121006)
 * ccECPs from Abdulgani Annaberdiyev et al. [Journal of Chemical Physics 149, 134108 (2018)](https://doi.org/10.1063/1.5040472) 
 * ccECPs from Chandler Bennett et al. [Journal of Chemical Physics 149, 104108 (2018)](https://doi.org/10.1063/1.5038135) 
 * ccECPs from Chandler Bennett et al. [Journal of Chemical Physics 147, 224106 (2017)](https://doi.org/10.1063/1.4995643)
@@ -18,10 +19,13 @@ Thanks for contributing! Please create a pull request on the [GitHub site](https
 
 ## Roadmap
 
-* 2018-12 Standardize available formats. Convert or create new formats where missing, e.g. GAMESS, Molpro, or UPF format with projectors for Quantum Espresso.
+* Now that H-Kr are complete, additional elements will be added based on requests. Create an issue if you need an element.
+* As implementations of spin-orbit are made in many-body codes such as QMCPACK, appropriate formats will be determined and new potentials incorporating spin-orbit will be added.
 
 ## News and Major Updates
 
+* 2019-07-19 Added 3rd-row main group and additional 1st-row ccECPs from G. Wang et al. (2019) 
+* 2018-11-01 Added Hydrogen ccECP from A. Annaberdiyev et al. (2018) 
 * 2018-10-15 Update 2nd row He-core ccECPs to be consistent with JCP (2018) potentials. 
 * 2018-05-21 Added ccECPs for 2nd and 3rd row from Abdulgani Annaberdiyev (2018) and Chandler Bennett (2018).
 * 2018-04-12 Added Trail-Needs CEPP (2015) and eCEPP (2017) potentials, basis sets, and orbitals.
