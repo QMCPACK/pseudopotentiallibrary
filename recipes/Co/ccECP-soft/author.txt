@@ -1,0 +1,2 @@
+ccECP-soft generated for plane-wave calculations.
+The KE cutoff is significantly decreased to half or one third of previous UPF file ccECP.
