@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Deployment configuration
  *
@@ -72,7 +73,7 @@ define('EXCLUDE', serialize(array(
  *
  * @var string Full path including the trailing slash
  */
-define('TMP_DIR', '/tmp/spgd-'.md5(REMOTE_REPOSITORY).'/');
+define('TMP_DIR', '/tmp/spgd-' . md5(REMOTE_REPOSITORY) . '/');
 /**
  * Whether to remove the TMP_DIR after the deployment.
  * It's useful NOT to clean up in order to only fetch changes on the next
@@ -84,7 +85,7 @@ define('CLEAN_UP', true);
  *
  * @var string Full path to the file name
  */
-define('VERSION_FILE', TMP_DIR.'VERSION');
+define('VERSION_FILE', TMP_DIR . 'VERSION');
 /**
  * Time limit for each command.
  *
@@ -132,4 +133,4 @@ define('COMPOSER_HOME', false);
  * @var string A single email address, or comma separated list of email addresses
  *      e.g. 'someone@example.com' or 'someone@example.com, someone-else@example.com, ...'
  */
-define('EMAIL_ON_ERROR', 'brownleedi@ornl.gov, kentpr@ornl.gov');
+define('EMAIL_ON_ERROR', 'drupalteam@ornl.gov, kentpr@ornl.gov');
