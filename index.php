@@ -8,7 +8,7 @@
 
 	<meta name="description" content="Pseudopotential Library">
 	<meta name="keywords" content="HTML,CSS,JavaScript">
-	<meta name="author" content="Ashley Pressley">
+	<meta name="author" content="QMCPACK">
 
 	<title>Pseudopotential Library</title>
 
