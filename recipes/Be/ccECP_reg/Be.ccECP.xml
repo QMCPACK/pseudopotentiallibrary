@@ -8,7 +8,7 @@
    npts="10001"/>
   <semilocal units="hartree" format="r*V" npots-down="1" npots-up="0" 
    l-local="0">
-    <vps principal-n="0" l="s" spin="-1" cutoff="1e-10" occupation="2">
+    <vps principal-n="0" l="s" spin="-1" cutoff="10" occupation="2">
       <radfunc>
         <grid type="linear" units="bohr" ri="0" rf="10" npts="10001"/>
         <data>
