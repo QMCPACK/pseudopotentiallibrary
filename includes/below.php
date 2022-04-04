@@ -1,6 +1,7 @@
 <!-- Markdown/HTML/Text can go here to be shown below the recipes -->
 ## Available ECPs and pseudopotentials
 
+* ccECPs from Guangming Wang et al. [arXiv:2202.04747](https://doi.org/10.48550/arXiv.2202.04747)
 * ccECPs from Guangming Wang et al. [Journal of Chemical Physics 151, 144110 (2019)](https://doi.org/10.1063/1.5121006)
 * ccECPs from Abdulgani Annaberdiyev et al. [Journal of Chemical Physics 149, 134108 (2018)](https://doi.org/10.1063/1.5040472) 
 * ccECPs from Chandler Bennett et al. [Journal of Chemical Physics 149, 104108 (2018)](https://doi.org/10.1063/1.5038135) 
@@ -24,6 +25,7 @@ Thanks for contributing! Please create a pull request on the [GitHub site](https
 
 ## News and Major Updates
 
+* 2022-04-04 Added selected heavy elements spin-orbit ccECPs from G. Wang et al. (2022) 
 * 2019-07-19 Added 3rd-row main group and additional 1st-row ccECPs from G. Wang et al. (2019) 
 * 2018-11-01 Added Hydrogen ccECP from A. Annaberdiyev et al. (2018) 
 * 2018-10-15 Update 2nd row He-core ccECPs to be consistent with JCP (2018) potentials. 
