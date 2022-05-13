@@ -25,6 +25,7 @@ Thanks for contributing! Please create a pull request on the [GitHub site](https
 
 ## News and Major Updates
 
+* 2022-05-13 Added Gaussian format conversions of ccECPs and their basis sets courtesy [addman2 on GitHub](https://github.com/addman2)
 * 2022-04-04 Added selected heavy elements spin-orbit ccECPs from G. Wang et al. (2022) 
 * 2019-07-19 Added 3rd-row main group and additional 1st-row ccECPs from G. Wang et al. (2019) 
 * 2018-11-01 Added Hydrogen ccECP from A. Annaberdiyev et al. (2018) 
