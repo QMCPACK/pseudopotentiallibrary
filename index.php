@@ -129,9 +129,9 @@
 				<div id="meitnerium" class="element element-block-1 unknown" onclick="getRecipe('meitnerium')">Mt</div>
 				<div id="darmstadtium" class="element element-block-1 unknown" onclick="getRecipe('darmstadtium')">Ds</div>
 				<div id="roentgenium" class="element element-block-1 unknown" onclick="getRecipe('roentgenium')">Rg</div>
-				<div id="copernicium" class="element element-block-1 transition-metal" onclick="getRecipe('copernicium')">Cn</div>
+				<div id="copernicium" class="element element-block-1 unknown" onclick="getRecipe('copernicium')">Cn</div>
 				<div id="nihonium" class="element element-block-1 unknown" onclick="getRecipe('nihonium')">Nh</div>
-				<div id="flerovium" class="element element-block-1 post-transition-metal" onclick="getRecipe('flerovium')">Fl</div>
+				<div id="flerovium" class="element element-block-1 unknown" onclick="getRecipe('flerovium')">Fl</div>
 				<div id="moscovium" class="element element-block-1 unknown" onclick="getRecipe('moscovium')">Mc</div>
 				<div id="livermorium" class="element element-block-1 unknown" onclick="getRecipe('livermorium')">Lv</div>
 				<div id="tennessine" class="element element-block-1 unknown" onclick="getRecipe('tennessine')">Ts</div>

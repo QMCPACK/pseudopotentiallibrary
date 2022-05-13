@@ -110,31 +110,38 @@ body {
 
 /** Element colouring **/
 .alkali-metal {
-  background-color: #ff6666;
+/*  background-color: #ff6666; */
+background-color: #eace5d;
 }
 
 .alkaline-earth-metal {
-  background-color: #ffdead;
+/*  background-color: #ffdead; */
+background-color: #f1f165;
 }
 
 .lanthanide {
-  background-color: #ffbfff;
+/*  background-color: #ffbfff; */
+  background-color: #e8d19c;
 }
 
 .actinide {
-  background-color: #ff99cc;
+/*  background-color: #ff99cc; */
+  background-color: #f5ccda;
 }
 
 .transition-metal {
-  background-color: #ffc0c0;
+/*  background-color: #ffc0c0; */
+  background-color: #fac5b7;
 }
 
 .post-transition-metal {
-  background-color: #ccc;
+/*  background-color: #ccc; */
+  background-color: #acdfec;
 }
 
 .metalloid {
-  background-color: #cccc99;
+/*  background-color: #cccc99; */
+  background-color: #9ee5d4;
 }
 
 .polyatomic-nonmetal {
@@ -142,11 +149,13 @@ body {
 }
 
 .diatomic-nonmetal {
-  background-color: #e7ff8f;
+/*  background-color: #e7ff8f; */
+  background-color: #8ced8c;
 }
 
 .noble-gas {
-  background-color: #c0ffff;
+/*  background-color: #c0ffff; */
+   background-color: #e5bde5;
 }
 
 .unknown {
