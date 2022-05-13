@@ -44,7 +44,8 @@ body {
 
 /** Periodic Table Styling **/
 .element {
-	color: #ddd;
+/*	color: #ddd; */
+color: #6a7968
 }
 
 .element-block-1 {
