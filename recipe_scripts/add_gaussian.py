@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+
+# Create gaussian format files from gamess format files for all the existing recipes
+
 import os
 import re
 import pathlib

@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+# Convert a GAMESS formatted ECP to Gaussian format
+
 info = { "authors" : [r"Otto Kohul\'{a}k"],
          "status"  : "This script was tested on:\n"
                      "\nBasis:\n"
