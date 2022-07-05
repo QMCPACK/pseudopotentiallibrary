@@ -1,0 +1,17 @@
+System          Li_reg
+Pyscf/PBE     -7.45901
+QE/PBE        -7.45925
+DMC/R(O)HF         NaN
+Exact_Total   -7.47818
+Exact_Corr    -0.04489
+Exact_Kin    7.2346(5)
+
+
+NOTE 1: All energies are given in Ha
+NOTE 2: Pyscf calculation: UKS, cc-pV5Z basis set
+NOTE 3: QE calculation: UKS, 700 Ry KE cutoff, 12 Angs size cell
+NOTE 4: See Ref. [1] for "Exact" and DMC energies
+
+
+[1] Chemical Physics 554, 111402. Supplementary data
+https://doi.org/10.1016/j.chemphys.2021.111402
