@@ -1,0 +1,18 @@
+System         Cl_He_core
+Pyscf/PBE      -182.17065
+QE/PBE         -182.03922
+DMC/R(O)HF   -182.1476(5)
+Exact_Total  -182.1971(2)
+Exact_Corr     -0.5841(2)
+Exact_Kin      144.513(4)
+
+
+NOTE 1: All energies are given in Ha
+NOTE 2: Pyscf calculation: UKS, cc-pV5Z basis set
+NOTE 3: QE calculation: UKS, 700 Ry KE cutoff, 12 Angs size cell
+NOTE 4: See Ref. [1] for "Exact" and DMC energies
+NOTE 5: This upf file has been deprecated due to the high KE cutoff
+
+
+[1] J. Chem. Theory Comput. 2020, 16, 3, 1482–1502
+https://doi.org/10.1021/acs.jctc.9b00962

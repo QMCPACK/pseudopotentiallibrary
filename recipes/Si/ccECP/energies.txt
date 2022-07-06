@@ -1,0 +1,17 @@
+System                Si
+Pyscf/PBE       -3.76109
+QE/PBE          -3.76122
+DMC/R(O)HF    -3.7601(1)
+Exact_Total  -3.76207(6)
+Exact_Corr   -0.08959(6)
+Exact_Kin      1.4314(2)
+
+
+NOTE 1: All energies are given in Ha
+NOTE 2: Pyscf calculation: UKS, cc-pV5Z basis set
+NOTE 3: QE calculation: UKS, 700 Ry KE cutoff, 12 Angs size cell
+NOTE 4: See Ref. [1] for "Exact" and DMC energies
+
+
+[1] J. Chem. Theory Comput. 2020, 16, 3, 1482–1502
+https://doi.org/10.1021/acs.jctc.9b00962
