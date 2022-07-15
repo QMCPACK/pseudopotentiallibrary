@@ -1,0 +1,9 @@
+System                  Pd
+Pyscf/PBE(AREP) -127.33827
+QE/PBE(AREP)    -127.33890
+QE/PBE(SOREP)   -127.35392
+
+
+NOTE 1: All energies are given in Ha
+NOTE 2: Pyscf calculation: UKS, cc-pV5Z basis set
+NOTE 3: QE calculation: UKS, 500 Ry KE cutoff, 12 Angs size cell

@@ -1,2 +1,1 @@
-spin-orbit ccECP from G. Wang et al. [arXiv:2202.04747](https://doi.org/10.48550/arXiv.2202.04747)
-arXiv version ccECPs for selected heavy elements. It might subject to change after peer-review.
+ccECP from Guangming Wang et al. [Journal of Chemical Physics (2022)](https://doi.org/10.1063/5.0087300)
