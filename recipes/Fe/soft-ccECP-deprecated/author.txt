@@ -1,1 +1,3 @@
 soft-ccECP generated for plane-wave calculations.
+
+DEPRECATED

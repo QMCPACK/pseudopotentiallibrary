@@ -1,0 +1,1 @@
+ccECP-soft from Kincaid et al. [arXiv (2022)](https://arxiv.org/abs/2207.02265) specifically developed for plane wave calculations.
