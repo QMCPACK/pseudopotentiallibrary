@@ -1,2 +1,3 @@
 ccECP from A. Annaberdiyev et al. [Journal of Chemical Physics 149, 134108 (2018)](https://doi.org/10.1063/1.5040472)
-Please use soft-ccECP for plane-wave calculations.
+Please use ccECP-soft for plane-wave calculations.
+Note that soft-ccECP is a deprecated ECP that is distinct from ccECP-soft.
