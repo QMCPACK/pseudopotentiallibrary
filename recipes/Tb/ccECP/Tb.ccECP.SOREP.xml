@@ -1,7 +1,7 @@
 <pseudo version="0.5">
   <header symbol="Tb" atomic-number="65" zval="19" relativistic="yes" polarized="no" creator="opium" flavor="Gaussian" core-corrections="no" parametrization="PBEGGA"/>
   <grid type="linear" units="bohr" ri="0.000000" rf="10.000000" npts="10001"/>
-  <semilocal units="hartree" format="r*V" npots-down="5" npots-up="0" npots-so="3" l-local="4">
+  <semilocal units="hartree" format="r*V" npots-down="5" npots-up="0" npots-so="3" l-local="4" nrule="7">
     <vps principal-n="0" l="s" spin="-1" cutoff="1.770000" occupation="2">
       <radfunc>
         <grid type="linear" units="bohr" ri="0.000000" rf="10.000000" npts="10001"/>
