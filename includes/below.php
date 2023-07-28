@@ -1,7 +1,8 @@
 <!-- Markdown/HTML/Text can go here to be shown below the recipes -->
 ## Available ECPs and pseudopotentials
 
-* ccECPs from Guangming Wang et al. [Journal of Chemical Physics (2022)](https://doi.org/10.1063/5.0087300)
+* ccECP-soft from Benjamin Kincaid et al. specifically developed for plane wave calculations. [J. Chem. Phys. 157, 174307 (2022)](https://doi.org/10.1063/5.0109098)
+* ccECPs from Guangming Wang et al. [Journal of Chemical Physics 157 054101 (2022)](https://doi.org/10.1063/5.0087300)
 * ccECPs from Guangming Wang et al. [Journal of Chemical Physics 151, 144110 (2019)](https://doi.org/10.1063/1.5121006)
 * ccECPs from Abdulgani Annaberdiyev et al. [Journal of Chemical Physics 149, 134108 (2018)](https://doi.org/10.1063/1.5040472) 
 * ccECPs from Chandler Bennett et al. [Journal of Chemical Physics 149, 104108 (2018)](https://doi.org/10.1063/1.5038135) 
@@ -16,15 +17,17 @@ Create an issue on the [GitHub site](https://github.com/QMCPACK/pseudopotentiall
 
 ## Contributing
 
-Thanks for contributing! Please create a pull request on the [GitHub site](https://github.com/QMCPACK/pseudopotentiallibrary/pulls) from a forked and branched copy of the repo. Please include details of the published papers or preprints where the potentials will be fully described.  [Create an issue](https://github.com/QMCPACK/pseudopotentiallibrary/issues) for help with this or to discuss a contribution. 
+Contributions of potentials developed for high-accuracy many-body and quantum chemical techniques are welcomed. We will give full attribution and links to published papers, relevant source codes, more extensive datasets etc. 
+If you have a dataset, please create a pull request on the [GitHub site](https://github.com/QMCPACK/pseudopotentiallibrary/pulls) from a forked and branched copy of the repo. [Create an issue](https://github.com/QMCPACK/pseudopotentiallibrary/issues) for help with this or to discuss a contribution. 
 
 ## Roadmap
 
-* Now that H-Kr are complete, additional elements will be added based on requests. Create an issue if you need an element.
+* Additional elements will be prioritized and added based on requests. Create an issue if you need an element.
 * As implementations of spin-orbit are made in many-body codes such as QMCPACK, appropriate formats will be determined and new potentials incorporating spin-orbit will be added.
 
 ## News and Major Updates
 
+* 2022-09-01 Added softer potentials designed for plane-wave calculations from [J. Chem. Phys. 157, 174307 (2022)](https://doi.org/10.1063/5.0109098)
 * 2022-05-13 Added Gaussian format conversions of ccECPs and their basis sets courtesy [addman2 on GitHub](https://github.com/addman2)
 * 2022-04-04 Added selected heavy elements spin-orbit ccECPs from G. Wang et al. (2022) 
 * 2019-07-19 Added 3rd-row main group and additional 1st-row ccECPs from G. Wang et al. (2019) 
