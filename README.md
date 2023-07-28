@@ -1,6 +1,6 @@
 ## Welcome to Pseudopotentials Library
 
-This is the guide for managing this website and its components, and was last updated on April 9th, 2018. Please refrain from editing any files outside of the **includes** and **recipes** folders.
+This is the guide for managing this website and its components. Please refrain from editing any files outside of the **includes** and **recipes** folders.
 
 
 ### Managing Recipe Content
