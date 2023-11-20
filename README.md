@@ -1,6 +1,6 @@
-## Welcome to Pseudopotentials Library
+## Welcome to Pseudopotential Library
 
-This is the guide for managing this website and its components. Please refrain from editing any files outside of the **includes** and **recipes** folders.
+This is the guide for managing the website https://pseudopotentiallibrary.org/ and its components. Please refrain from editing any files outside of the **includes** and **recipes** folders.
 
 
 ### Managing Recipe Content
