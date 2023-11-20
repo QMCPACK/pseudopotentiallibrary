@@ -43,7 +43,7 @@ if (!defined('REMOTE_REPOSITORY')) define('REMOTE_REPOSITORY', 'https://github.c
  *
  * @var string
  */
-if (!defined('BRANCH')) define('BRANCH', 'master');
+if (!defined('BRANCH')) define('BRANCH', 'main');
 /**
  * The location that the code is going to be deployed to.
  * Don't forget the trailing slash!

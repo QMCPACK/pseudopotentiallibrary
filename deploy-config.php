@@ -34,7 +34,7 @@ define('REMOTE_REPOSITORY', 'https://github.com/QMCPACK/pseudopotentiallibrary.g
  *
  * @var string
  */
-define('BRANCH', 'master');
+define('BRANCH', 'main');
 /**
  * The location that the code is going to be deployed to.
  * Don't forget the trailing slash!
