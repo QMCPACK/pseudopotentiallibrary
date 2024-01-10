@@ -1,4 +1,4 @@
-LARGE EXPLICIT 6 7 7 6 4 3 2
+LARGE EXPLICIT 6 7 7 6 8 6 4
 # s functions
 f  13  1
     226.9820570 -0.0001230
@@ -254,3 +254,30 @@ f  1  1
 # h functions
 f  1  1
       0.8877090  1.0000000
+# f functions
+f  1  1
+      3.7196000  1.0000000
+# f functions
+f  1  1
+      1.2537000  1.0000000
+# f functions
+f  1  1
+      0.4226000  1.0000000
+# f functions
+f  1  1
+      0.1540000  1.0000000
+# g functions
+f  1  1
+      2.2230000  1.0000000
+# g functions
+f  1  1
+      0.7801000  1.0000000
+# g functions
+f  1  1
+      0.3364000  1.0000000
+# h functions
+f  1  1
+      1.5307000  1.0000000
+# h functions
+f  1  1
+      0.6971000  1.0000000
