@@ -81,7 +81,7 @@
 				<div id="rubidium" class="element element-block-1 alkali-metal" onclick="getRecipe('rubidium')">Rb</div>
 				<div id="strontium" class="element element-block-1 alkaline-earth-metal" onclick="getRecipe('strontium')">Sr</div>
 				<div id="yttrium" class="element element-block-1 transition-metal" onclick="getRecipe('yttrium')">Y</div>
-				<div id="zironium" class="element element-block-1 transition-metal" onclick="getRecipe('zironium')">Zr</div>
+				<div id="zirconium" class="element element-block-1 transition-metal" onclick="getRecipe('zirconium')">Zr</div>
 				<div id="niobium" class="element element-block-1 transition-metal" onclick="getRecipe('niobium')">Nb</div>
 				<div id="molybdenum" class="element element-block-1 transition-metal" onclick="getRecipe('molybdenum')">Mo</div>
 				<div id="technetium" class="element element-block-1 transition-metal" onclick="getRecipe('technetium')">Tc</div>
@@ -102,7 +102,7 @@
 				<div id="barium" class="element element-block-1 alkaline-earth-metal" onclick="getRecipe('barium')">Ba</div>
 				<div id="lanthanum" class="element element-block-1 lanthanide" onclick="getRecipe('lanthanum')">La</div>
 				<div id="hafnium" class="element element-block-1 transition-metal" onclick="getRecipe('hafnium')">Hf</div>
-				<div id="tatalum" class="element element-block-1 transition-metal" onclick="getRecipe('tatalum')">Ta</div>
+				<div id="tantalum" class="element element-block-1 transition-metal" onclick="getRecipe('tantalum')">Ta</div>
 				<div id="tungsten" class="element element-block-1 transition-metal" onclick="getRecipe('tungsten')">W</div>
 				<div id="rhenium" class="element element-block-1 transition-metal" onclick="getRecipe('rhenium')">Re</div>
 				<div id="osmium" class="element element-block-1 transition-metal" onclick="getRecipe('osmium')">Os</div>

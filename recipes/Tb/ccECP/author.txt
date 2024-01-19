@@ -1,2 +1,2 @@
-ccECP from A. Annaberdiyev et al. [npj Quantum Materials (2023)](https://www.nature.com/articles/s41535-023-00583-6)
-ccECP from Haihan Zhou et al. [arxiv (2023)](https://arxiv.org/abs/2309.12145)
+ccECP from A. Annaberdiyev et al. [npj Quantum Materials (2023)](https://www.nature.com/articles/s41535-023-00583-6).
+See also Haihan Zhou et al. [arxiv (2023)](https://arxiv.org/abs/2309.12145)
