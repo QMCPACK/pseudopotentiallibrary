@@ -95,7 +95,7 @@ SLA  PZ   NOGX NOGC    PZ   Exchange-Correlation functional
  Wavefunctions         nl  l   occ
                        S  0  2.000000
                        P  1  6.000000
-                       D  2  0.000001
+                      3D  2  0.000001
 </PP_HEADER>
 <PP_MESH>
   <PP_R>

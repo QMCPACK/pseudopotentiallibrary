@@ -143,8 +143,8 @@ SLA  PW   PBE  PBE     PBE  Exchange-Correlation functional
                        S  0  2.000000
                        P  1  0.666667
                        P  1  1.333333
-                       D  2  0.200000
-                       D  2  0.300000
+                      3D  2  0.200000
+                      3D  2  0.300000
                        F  3  0.042857
                        F  3  0.057143
 </PP_HEADER>

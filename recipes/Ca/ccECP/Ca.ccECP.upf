@@ -143,7 +143,7 @@ SLA  PW   PBE  PBE     PBE  Exchange-Correlation functional
  Wavefunctions         nl  l   occ
                        S  0  2.000000
                        P  1  5.000000
-                       D  2  0.000000
+                      3D  2  0.000000
 </PP_HEADER>
 <PP_MESH>
   <PP_R>
