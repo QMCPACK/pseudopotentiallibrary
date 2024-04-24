@@ -1,7 +1,7 @@
 <!-- Markdown/HTML/Text can go here to be shown below the recipes -->
 ## Available ECPs and pseudopotentials
 
-* ccECPs from Haihan Zhou et al. [Journal of Chemical Physics 160 084302 (2023)](https://doi.org/10.1063/5.0180057)
+* ccECPs from Haihan Zhou et al. [Journal of Chemical Physics 160 084302 (2024)](https://doi.org/10.1063/5.0180057)
 * ccECP-soft from Benjamin Kincaid et al. specifically developed for plane wave calculations. [J. Chem. Phys. 157, 174307 (2022)](https://doi.org/10.1063/5.0109098)
 * ccECPs from Guangming Wang et al. [Journal of Chemical Physics 157 054101 (2022)](https://doi.org/10.1063/5.0087300)
 * ccECPs from Guangming Wang et al. [Journal of Chemical Physics 151, 144110 (2019)](https://doi.org/10.1063/1.5121006)
@@ -28,7 +28,7 @@ If you have a dataset, please create a pull request on the [GitHub site](https:/
 
 ## News and Major Updates
 
-* 2024-01-19 Added selected lanthanides and heavy elements ccECPs from Haihan Zhou et al. [J. Chem. Phys. 160 084302 (2023)](https://doi.org/10.1063/5.0180057)
+* 2024-01-19 Added selected lanthanides and heavy elements ccECPs from Haihan Zhou et al. [J. Chem. Phys. 160 084302 (2024)](https://doi.org/10.1063/5.0180057)
 * 2022-09-01 Added softer potentials designed for plane-wave calculations from [J. Chem. Phys. 157 174307 (2022)](https://doi.org/10.1063/5.0109098)
 * 2022-05-13 Added Gaussian format conversions of ccECPs and their basis sets courtesy [addman2 on GitHub](https://github.com/addman2)
 * 2022-04-04 Added selected heavy elements spin-orbit ccECPs from G. Wang et al. (2022) 
