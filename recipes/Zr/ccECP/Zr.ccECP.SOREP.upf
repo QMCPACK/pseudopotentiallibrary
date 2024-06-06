@@ -4,15 +4,15 @@
 #    Opium Parameter File                                  #
 ############################################################
 #-----------------------------------------------------------
-#Command line   : ../../../../../opium-modified/opium Zr Zr.log ae ps nl tc2 ke upf qmcpack rpt 
+#Command line   : opium Zr Zr.log ae ps nl tc2 ke upf qmcpack rpt 
  
 #Opium version  : 4.1 
-#Compile Host   : login26 
-#Compile OS     : Linux 5.14.21-150400.24.81_12.0.86-cray_shasta_c x86_64 
-#Compile Date   : Mon Nov 20 09:17:44 PST 2023 
+#Compile Host   : ben-XPS-15-7590 
+#Compile OS     : Linux 6.5.0-26-generic x86_64 
+#Compile Date   : Wed Apr 17 18:47:06 EDT 2024 
 #-----------------------------------------------------------
-#Execution Host : login08 
-#Execution Date : Sun Jan  7 08:16:29 2024
+#Execution Host : ben-XPS-15-7590 
+#Execution Date : Fri Apr 19 01:29:27 2024
  
 #-----------------------------------------------------------
 ############################################################
@@ -129,11 +129,11 @@ SLA  PW   PBE  PBE     PBE  Exchange-Correlation functional
  1171           Number of points in mesh
  5  4     Number of Wavefuncitons, Number of Projectors
  Wavefunctions         nl  l   occ
-                       S  0  2.000000
-                       P  1  2.000000
-                       P  1  4.000000
-                       D  2  0.800000
-                       D  2  1.200000
+                      4S  0  2.000000
+                      4P  1  2.000000
+                      4P  1  4.000000
+                      4D  2  0.800000
+                      4D  2  1.200000
 </PP_HEADER>
 <PP_MESH>
   <PP_R>
