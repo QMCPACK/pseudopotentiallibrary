@@ -7,12 +7,12 @@
 #Command line   : opium Mn Mn.log ae ps nl tc2 ke upf qmcpack rpt 
  
 #Opium version  : 4.1 
-#Compile Host   : gwang18-p3 
-#Compile OS     : Linux 5.4.0-52-generic x86_64 
-#Compile Date   : Thu Nov 12 23:12:21 EST 2020 
+#Compile Host   : ben-XPS-15-7590 
+#Compile OS     : Linux 6.5.0-26-generic x86_64 
+#Compile Date   : Wed Apr 17 18:47:06 EDT 2024 
 #-----------------------------------------------------------
-#Execution Host : gwang18-p3 
-#Execution Date : Mon Jan  4 11:36:53 2021
+#Execution Host : ben-XPS-15-7590 
+#Execution Date : Fri Apr 19 01:24:26 2024
  
 #-----------------------------------------------------------
 ############################################################
@@ -140,9 +140,9 @@ SLA  PW   PBE  PBE     PBE  Exchange-Correlation functional
  1159           Number of points in mesh
  3  2     Number of Wavefuncitons, Number of Projectors
  Wavefunctions         nl  l   occ
-                       S  0  2.000000
-                       P  1  6.000000
-                       D  2  5.000000
+                      3S  0  2.000000
+                      3P  1  6.000000
+                      3D  2  5.000000
 </PP_HEADER>
 <PP_MESH>
   <PP_R>
@@ -1029,7 +1029,7 @@ SLA  PW   PBE  PBE     PBE  Exchange-Correlation functional
 <PP_NONLOCAL>
   <PP_BETA>
   1  1      Beta    L
-  1158  
+  1159  
  -7.7708160716813162e-07  -7.9755067348276759e-07  -8.1855891440483243e-07  -8.4012053230414323e-07 
  -8.6225010365436719e-07  -8.8496258888727190e-07  -9.0827334250654594e-07  -9.3219812346802034e-07 
  -9.5675310583332110e-07  -9.8195488970414762e-07  -1.0078205124445693e-06  -1.0343674601989281e-06 
@@ -1323,7 +1323,7 @@ SLA  PW   PBE  PBE     PBE  Exchange-Correlation functional
   </PP_BETA>
   <PP_BETA>
   2  2      Beta    L
-  1158  
+  1159  
  -5.9427714736298901e-10  -6.1791183647861109e-10  -6.4248648858362877e-10  -6.6803848645872471e-10 
  -6.9460669961571404e-10  -7.2223154342555161e-10  -7.5095504059789048e-10  -7.8082088510570501e-10 
  -8.1187450865223114e-10  -8.4416314978132941e-10  -8.7773592573639605e-10  -9.1264390717713905e-10 

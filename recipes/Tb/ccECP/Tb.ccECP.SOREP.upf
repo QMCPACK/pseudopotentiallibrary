@@ -185,13 +185,13 @@ SLA  PW   PBE  PBE     PBE  Exchange-Correlation functional
  1183           Number of points in mesh
  7  6     Number of Wavefuncitons, Number of Projectors
  Wavefunctions         nl  l   occ
-                       S  0  2.000000
-                       P  1  1.666667
-                       P  1  3.333333
-                       D  2  0.800000
-                       D  2  1.200000
-                       F  3  3.642857
-                       F  3  4.857143
+                      5S  0  2.000000
+                      5P  1  1.666667
+                      5P  1  3.333333
+                      5D  2  0.800000
+                      5D  2  1.200000
+                      4F  3  3.642857
+                      4F  3  4.857143
 </PP_HEADER>
 <PP_MESH>
   <PP_R>
