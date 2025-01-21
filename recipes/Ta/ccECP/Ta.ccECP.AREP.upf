@@ -7,12 +7,12 @@
 #Command line   : opium Ta Ta.log ae ps nl tc2 ke upf qmcpack rpt 
  
 #Opium version  : 4.1 
-#Compile Host   : ben-XPS-15-7590 
-#Compile OS     : Linux 6.5.0-26-generic x86_64 
-#Compile Date   : Wed Apr 17 18:47:06 EDT 2024 
+#Compile Host   : py-garuda.cos.ncsu.edu 
+#Compile OS     : Linux 5.15.0-113-generic x86_64 
+#Compile Date   : Sat Jul 13 02:11:52 EDT 2024 
 #-----------------------------------------------------------
-#Execution Host : ben-XPS-15-7590 
-#Execution Date : Fri Apr 19 01:27:27 2024
+#Execution Host : py-garuda.cos.ncsu.edu 
+#Execution Date : Mon Jan 20 22:28:30 2025
  
 #-----------------------------------------------------------
 ############################################################
@@ -121,6 +121,7 @@ pbe
 520   0.00 -
 600   0.00 -
 610   0.00 -
+############################################################
 ############################################################
   </PP_INFO>
 

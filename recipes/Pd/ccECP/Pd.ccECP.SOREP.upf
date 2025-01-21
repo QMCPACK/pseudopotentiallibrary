@@ -7,12 +7,12 @@
 #Command line   : opium Pd Pd.log ae ps nl tc2 ke upf qmcpack rpt 
  
 #Opium version  : 4.1 
-#Compile Host   : ben-XPS-15-7590 
-#Compile OS     : Linux 6.5.0-26-generic x86_64 
-#Compile Date   : Wed Apr 17 18:47:06 EDT 2024 
+#Compile Host   : py-garuda.cos.ncsu.edu 
+#Compile OS     : Linux 5.15.0-113-generic x86_64 
+#Compile Date   : Sat Jul 13 02:11:52 EDT 2024 
 #-----------------------------------------------------------
-#Execution Host : ben-XPS-15-7590 
-#Execution Date : Fri Apr 19 01:25:01 2024
+#Execution Host : py-garuda.cos.ncsu.edu 
+#Execution Date : Mon Jan 20 22:27:30 2025
  
 #-----------------------------------------------------------
 ############################################################
@@ -110,6 +110,7 @@ pbe
 420   5.00  -
 500   0.00  -
 
+############################################################
 ############################################################
   </PP_INFO>
 
@@ -4007,11 +4008,11 @@ D    2   5.40          Wavefunction
 
 
 <PP_ADDINFO>
- 1S  1  0   0.50  2.00 
- 2P  2  1   0.50  2.00 
- 2P  2  1   1.50  4.00 
- 3D  3  2   1.50  3.60 
- 3D  3  2   2.50  5.40 
+ 4S  4  0   0.50  2.00 
+ 4P  4  1   0.50  2.00 
+ 4P  4  1   1.50  4.00 
+ 4D  4  2   1.50  3.60 
+ 4D  4  2   2.50  5.40 
   1   0.50 
   1   1.50 
   2   1.50 

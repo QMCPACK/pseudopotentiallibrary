@@ -7,12 +7,12 @@
 #Command line   : opium Au Au.log ae ps nl tc2 ke upf qmcpack rpt 
  
 #Opium version  : 4.1 
-#Compile Host   : ben-XPS-15-7590 
-#Compile OS     : Linux 6.5.0-26-generic x86_64 
-#Compile Date   : Wed Apr 17 18:47:06 EDT 2024 
+#Compile Host   : py-garuda.cos.ncsu.edu 
+#Compile OS     : Linux 5.15.0-113-generic x86_64 
+#Compile Date   : Sat Jul 13 02:11:52 EDT 2024 
 #-----------------------------------------------------------
-#Execution Host : ben-XPS-15-7590 
-#Execution Date : Fri Apr 19 01:22:24 2024
+#Execution Host : py-garuda.cos.ncsu.edu 
+#Execution Date : Mon Jan 20 22:25:54 2025
  
 #-----------------------------------------------------------
 ############################################################
@@ -167,6 +167,7 @@ pbe
 520   0.00  -
 530   0.00  -
 600   0.00  -
+############################################################
 ############################################################
   </PP_INFO>
 
@@ -5305,13 +5306,13 @@ F    3   0.06          Wavefunction
 
 
 <PP_ADDINFO>
- 1S  1  0   0.50  2.00 
- 2P  2  1   0.50  2.00 
- 2P  2  1   1.50  4.00 
- 3D  3  2   1.50  3.60 
- 3D  3  2   2.50  5.40 
- 4F  4  3   2.50  0.04 
- 4F  4  3   3.50  0.06 
+ 5S  5  0   0.50  2.00 
+ 5P  5  1   0.50  2.00 
+ 5P  5  1   1.50  4.00 
+ 5D  5  2   1.50  3.60 
+ 5D  5  2   2.50  5.40 
+ 5F  5  3   2.50  0.04 
+ 5F  5  3   3.50  0.06 
   0   0.50 
   1   0.50 
   2   1.50 
