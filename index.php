@@ -98,7 +98,7 @@
 				<div id="xenon" class="element element-block-1 noble-gas" onclick="getRecipe('xenon')">Xe</div>
 			</div>
 			<div id="group-6" class="element-row">
-				<div id="caesium" class="element element-block-1 alkali-metal" onclick="getRecipe('caesium')">Cs</div>
+				<div id="cesium" class="element element-block-1 alkali-metal" onclick="getRecipe('cesium')">Cs</div>
 				<div id="barium" class="element element-block-1 alkaline-earth-metal" onclick="getRecipe('barium')">Ba</div>
 				<div id="lanthanum" class="element element-block-1 lanthanide" onclick="getRecipe('lanthanum')">La</div>
 				<div id="hafnium" class="element element-block-1 transition-metal" onclick="getRecipe('hafnium')">Hf</div>
