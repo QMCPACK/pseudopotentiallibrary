@@ -28,7 +28,7 @@ If you have a dataset, please create a pull request on the [GitHub site](https:/
 * Additional elements will be prioritized and added based on requests. Create an issue or email us if you need an element.
 
 ## News and Major Updates
-
+* 2025-09-17 Added selected lanthanides and heavy elements II ccECPs from Omar Madany et al. [J. Chem. Phys. 163 114108 (2025)](https://doi.org/10.1063/5.0285320)
 * 2024-01-19 Added selected lanthanides and heavy elements ccECPs from Haihan Zhou et al. [J. Chem. Phys. 160 084302 (2024)](https://doi.org/10.1063/5.0180057)
 * 2022-09-01 Added softer potentials designed for plane-wave calculations from [J. Chem. Phys. 157 174307 (2022)](https://doi.org/10.1063/5.0109098)
 * 2022-05-13 Added Gaussian format conversions of ccECPs and their basis sets courtesy [addman2 on GitHub](https://github.com/addman2)
