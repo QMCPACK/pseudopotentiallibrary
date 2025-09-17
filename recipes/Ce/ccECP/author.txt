@@ -1,1 +1,1 @@
-ccECP from Omar Madany et al. [arXiv, (2025)](https://doi.org/10.48550/arXiv.2505.18100)
+ccECP from Omar Madany et al. [Journal of Chemical Physics (2025)](https://doi.org/10.1063/5.0285320)
