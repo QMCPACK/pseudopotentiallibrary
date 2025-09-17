@@ -1,6 +1,7 @@
 <!-- Markdown/HTML/Text can go here to be shown below the recipes -->
 ## Available ECPs and pseudopotentials
 
+* ccECPs from Omar Madany et al. [Journal of Chemical Physics 163 114108 (2025)](https://doi.org/10.1063/5.0285320)
 * ccECPs from Haihan Zhou et al. [Journal of Chemical Physics 160 084302 (2024)](https://doi.org/10.1063/5.0180057)
 * ccECP-soft from Benjamin Kincaid et al. specifically developed for plane wave calculations. [J. Chem. Phys. 157, 174307 (2022)](https://doi.org/10.1063/5.0109098)
 * ccECPs from Guangming Wang et al. [Journal of Chemical Physics 157 054101 (2022)](https://doi.org/10.1063/5.0087300)
