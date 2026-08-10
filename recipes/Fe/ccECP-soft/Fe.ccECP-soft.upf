@@ -7,12 +7,12 @@
 #Command line   : opium Fe Fe.log ae ps nl tc2 ke upf qmcpack rpt 
  
 #Opium version  : 4.1 
-#Compile Host   : xps-15 
-#Compile OS     : Linux 5.4.0-122-generic x86_64 
-#Compile Date   : Tue Aug  9 16:04:32 EDT 2022 
+#Compile Host   : py-garuda.cos.ncsu.edu 
+#Compile OS     : Linux 5.15.0-113-generic x86_64 
+#Compile Date   : Sat Jul 13 02:11:52 EDT 2024 
 #-----------------------------------------------------------
-#Execution Host : xps-15 
-#Execution Date : Tue Aug  9 17:31:13 2022
+#Execution Host : py-garuda.cos.ncsu.edu 
+#Execution Date : Mon Jan 20 22:26:28 2025
  
 #-----------------------------------------------------------
 ############################################################
@@ -105,6 +105,7 @@ pbe
 400  0.00 -
 410  0.00 -
 ############################################################
+############################################################
   </PP_INFO>
 
 
@@ -122,9 +123,9 @@ SLA  PW   PBE  PBE     PBE  Exchange-Correlation functional
  1160           Number of points in mesh
  3  2     Number of Wavefuncitons, Number of Projectors
  Wavefunctions         nl  l   occ
-                       S  0  2.000000
-                       P  1  6.000000
-                       D  2  6.000000
+                      3S  0  2.000000
+                      3P  1  6.000000
+                      3D  2  6.000000
 </PP_HEADER>
 <PP_MESH>
   <PP_R>

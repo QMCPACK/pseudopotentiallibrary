@@ -4,15 +4,15 @@
 #    Opium Parameter File                                  #
 ############################################################
 #-----------------------------------------------------------
-#Command line   : ../../opium-modified/opium Re Re.log ae ps nl tc2 ke upf qmcpack rpt 
+#Command line   : opium Re Re.log ae ps nl tc2 ke upf qmcpack rpt 
  
 #Opium version  : 4.1 
-#Compile Host   : login26 
-#Compile OS     : Linux 5.14.21-150400.24.81_12.0.86-cray_shasta_c x86_64 
-#Compile Date   : Mon Nov 20 09:17:44 PST 2023 
+#Compile Host   : py-garuda.cos.ncsu.edu 
+#Compile OS     : Linux 5.15.0-113-generic x86_64 
+#Compile Date   : Sat Jul 13 02:11:52 EDT 2024 
 #-----------------------------------------------------------
-#Execution Host : login22 
-#Execution Date : Thu Dec 21 13:28:15 2023
+#Execution Host : py-garuda.cos.ncsu.edu 
+#Execution Date : Mon Jan 20 22:27:43 2025
  
 #-----------------------------------------------------------
 ############################################################
@@ -115,6 +115,7 @@ pbe
 520   0.00 -
 600   0.00 -
 ############################################################
+############################################################
   </PP_INFO>
 
 
@@ -132,9 +133,9 @@ SLA  PW   PBE  PBE     PBE  Exchange-Correlation functional
  1187           Number of points in mesh
  3  2     Number of Wavefuncitons, Number of Projectors
  Wavefunctions         nl  l   occ
-                       S  0  2.000000
-                       P  1  6.000000
-                       D  2  5.000000
+                      5S  0  2.000000
+                      5P  1  6.000000
+                      5D  2  5.000000
 </PP_HEADER>
 <PP_MESH>
   <PP_R>
