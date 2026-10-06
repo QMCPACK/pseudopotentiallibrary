@@ -4,15 +4,15 @@
 #    Opium Parameter File                                  #
 ############################################################
 #-----------------------------------------------------------
-#Command line   : ../../opium-modified/opium Rh Rh.log ae ps nl tc2 ke upf qmcpack rpt 
+#Command line   : opium Rh Rh.log ae ps nl tc2 ke upf qmcpack rpt 
  
 #Opium version  : 4.1 
-#Compile Host   : login26 
-#Compile OS     : Linux 5.14.21-150400.24.81_12.0.86-cray_shasta_c x86_64 
-#Compile Date   : Mon Nov 20 09:17:44 PST 2023 
+#Compile Host   : py-garuda.cos.ncsu.edu 
+#Compile OS     : Linux 5.15.0-113-generic x86_64 
+#Compile Date   : Sat Jul 13 02:11:52 EDT 2024 
 #-----------------------------------------------------------
-#Execution Host : login37 
-#Execution Date : Mon Dec  4 11:39:20 2023
+#Execution Host : py-garuda.cos.ncsu.edu 
+#Execution Date : Mon Jan 20 22:27:56 2025
  
 #-----------------------------------------------------------
 ############################################################
@@ -105,6 +105,7 @@ pbe
 500   0.00 -
 510   0.00 -
 ############################################################
+############################################################
   </PP_INFO>
 
 
@@ -122,11 +123,11 @@ SLA  PW   PBE  PBE     PBE  Exchange-Correlation functional
  1174           Number of points in mesh
  5  4     Number of Wavefuncitons, Number of Projectors
  Wavefunctions         nl  l   occ
-                       S  0  2.000000
-                       P  1  2.000000
-                       P  1  4.000000
-                       D  2  3.200000
-                       D  2  4.800000
+                      4S  0  2.000000
+                      4P  1  2.000000
+                      4P  1  4.000000
+                      4D  2  3.200000
+                      4D  2  4.800000
 </PP_HEADER>
 <PP_MESH>
   <PP_R>
@@ -4001,11 +4002,11 @@ D    2   4.80          Wavefunction
 
 
 <PP_ADDINFO>
- 1S  1  0   0.50  2.00 
- 2P  2  1   0.50  2.00 
- 2P  2  1   1.50  4.00 
- 3D  3  2   1.50  3.20 
- 3D  3  2   2.50  4.80 
+ 4S  4  0   0.50  2.00 
+ 4P  4  1   0.50  2.00 
+ 4P  4  1   1.50  4.00 
+ 4D  4  2   1.50  3.20 
+ 4D  4  2   2.50  4.80 
   1   0.50 
   1   1.50 
   2   1.50 
