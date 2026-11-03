@@ -1,1 +1,1 @@
-ccECP from Omar Madany and Lubos Mitas [arXiv (2026)](https://doi.org/10.48550/arXiv.2609.10853)
+ccECP from Omar Madany and Lubos Mitas [Journal of Chemical Physics (2026)](https://doi.org/10.1063/5.0360098)
