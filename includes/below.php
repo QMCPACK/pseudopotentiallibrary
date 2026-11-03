@@ -1,7 +1,7 @@
 <!-- Markdown/HTML/Text can go here to be shown below the recipes -->
 ## Available ECPs and pseudopotentials
 
-* ccECPs from Omar Madany and Lubos Mitas [arXiv (2026)](https://doi.org/10.48550/arXiv.2609.10853)
+* ccECPs from Omar Madany and Lubos Mitas [Journal of Chemical Physics 165 174107 (2026)](https://doi.org/10.1063/5.0360098)
 * ccECPs from Omar Madany et al. [Journal of Chemical Physics 163 114108 (2025)](https://doi.org/10.1063/5.0285320)
 * ccECPs from Haihan Zhou et al. [Journal of Chemical Physics 160 084302 (2024)](https://doi.org/10.1063/5.0180057)
 * ccECP-soft from Benjamin Kincaid et al. specifically developed for plane wave calculations. [J. Chem. Phys. 157, 174307 (2022)](https://doi.org/10.1063/5.0109098)
@@ -29,6 +29,7 @@ If you have a dataset, please create a pull request on the [GitHub site](https:/
 * Additional elements will be prioritized and added based on requests. Create an issue or email us if you need an element.
 
 ## News and Major Updates
+* 2026-11-03 Added selected heavy 5d and 6p elements ccECPs from Omar Madany and Lubos Mitas [Journal of Chemical Physics 165 174107 (2026)](https://doi.org/10.1063/5.0360098)
 * 2025-09-17 Added selected lanthanides and heavy elements II ccECPs from Omar Madany et al. [J. Chem. Phys. 163 114108 (2025)](https://doi.org/10.1063/5.0285320)
 * 2024-01-19 Added selected lanthanides and heavy elements ccECPs from Haihan Zhou et al. [J. Chem. Phys. 160 084302 (2024)](https://doi.org/10.1063/5.0180057)
 * 2022-09-01 Added softer potentials designed for plane-wave calculations from [J. Chem. Phys. 157 174307 (2022)](https://doi.org/10.1063/5.0109098)
